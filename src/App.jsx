@@ -1,10 +1,12 @@
 import './App.css'
-
+import { SideBar } from './components/sidebar';
+import { Content } from './components/content';
 function App() {
   return (
     <>
-      <div className='bg-red-100'>
-        hello
+      <div className="flex">
+        <SideBar/>
+        <Content/>
       </div>
     </>
   )
